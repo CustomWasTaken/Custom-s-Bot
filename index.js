@@ -11,7 +11,7 @@ var version = '1.0.9';
 
 bot.on('ready', () => {
     console.log('Ryyan just got updated.');
-    bot.user.setActivity('WATCHING HUGOS COMMUNITY,);
+    bot.user.setActivity('test' , {
         type: 'TEST'
     }).catch(console.error);
 
