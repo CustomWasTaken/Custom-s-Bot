@@ -2,7 +2,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = process.env.arcadia
+const token = 'NjgwOTQyMTMyOTk0OTAwMDU5.XlHhlQ.Fh2P2q23-SyIbjpnehUG8OQsThE';
 
 const PREFIX = '/';
 
@@ -43,4 +43,4 @@ bot.on('message', message => {
         }
 });
 
-        bot.login(process.env.token);
+        bot.login(token);
