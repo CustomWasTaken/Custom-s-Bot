@@ -1,18 +1,17 @@
-
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 const token = 'NjgwOTQyMTMyOTk0OTAwMDU5.XlHhlQ.Fh2P2q23-SyIbjpnehUG8OQsThE';
 
-const PREFIX = '/';
+const PREFIX = '!!';
 
 var version = '1.0.9';
 
 
 bot.on('ready', () => {
     console.log('Ryyan just got updated.');
-    bot.user.setActivity('test' , {
-        type: 'TEST'
+    bot.user.setActivity('slow jazz', {
+        type: 'LISTENING'
     }).catch(console.error);
 
 
